@@ -34,8 +34,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({ className = "h-12 w-auto",
         <path d="M5 50 H95" stroke="white" strokeWidth="3" />
         
         {/* Bottom Supports (Trapezoids) */}
-        <path d="M25 62 L32 52 H38 L45 62 H25Z" fill={white} />
-        <path d="M55 62 L62 52 H68 L75 62 H55Z" fill={white} />
+        <path d="M25 62 L32 52 H38 L45 62 H25Z" fill="white" />
+        <path d="M55 62 L62 52 H68 L75 62 H55Z" fill="white" />
       </svg>
       
       {/* Text */}
