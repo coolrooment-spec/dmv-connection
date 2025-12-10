@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-24">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DMV Connection | DFY Marketing</title>
+    <meta name="description" content="Get fully managed marketing — videos, graphics, websites, funnels, ads, and campaigns — without lifting a finger." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dmvconnection.com/" />
+    <meta property="og:title" content="DMV Connection | DFY Marketing" />
+    <meta property="og:description" content="Get fully managed marketing — videos, graphics, websites, funnels, ads, and campaigns — without lifting a finger." />
+    <meta property="og:image" content="https://picsum.photos/1200/630?grayscale&blur=2" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://dmvconnection.com/" />
+    <meta property="twitter:title" content="DMV Connection | DFY Marketing" />
+    <meta property="twitter:description" content="Get fully managed marketing — videos, graphics, websites, funnels, ads, and campaigns — without lifting a finger." />
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?grayscale&blur=2" />
+
+    <link rel="canonical" href="https://dmvconnection.com/" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#0E2A47',
+                teal: '#1D7F67',
+                tealLight: '#25A082',
+                navyLight: '#1A3F66',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+      }
+      .gradient-text {
+        background: linear-gradient(to right, #1D7F67, #25A082);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
